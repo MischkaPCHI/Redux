@@ -1,7 +1,7 @@
 import Button from "../Button/Button";
 import { ButtonControl, CounterResult, CounterWrapper } from "./styles";
-import { useAppDispatch, useAppSelector } from "../../store/hooks";
-import { counterSliceSelectors, counterSliceActions } from "../../store/redux/counter/counterSlice";
+import { useAppDispatch, useAppSelector } from "store/hooks";
+import { counterSliceSelectors, counterSliceActions } from "store/redux/counter/counterSlice";
 // import { useState } from "react";
 
 function Counter() {
